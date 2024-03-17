@@ -39,12 +39,12 @@ par(mar = c(4,4,4,4), oma = c(0,2,0,0), mgp = c(2.5,0.5,0), cex.main = 1)
 par(mfrow = c(1,3))
 
 plotclock(dat$Horvath.pan.tissue.2013, dat$time, "Horvath Pan-tissue 2013")
-title("e", adj = 0, cex.main = 1.5)
+title("a", adj = 0, cex.main = 1.5)
 
 plotclock(dat$Teschendorff.epiTOC2.2020, dat$time, "Teschendorff epiTOC2 2020")
-title("f", adj = 0, cex.main = 1.5)
+title("b", adj = 0, cex.main = 1.5)
 
 plotclock(dat$Lu.GrimAge2.2022, dat$time, "Lu GrimAge2 2022")
-title("g", adj = 0, cex.main = 1.5)
+title("c", adj = 0, cex.main = 1.5)
 
 invisible(dev.off())

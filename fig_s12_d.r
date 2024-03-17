@@ -49,7 +49,7 @@ fhour <- function(x) {
 pdf("fig_s12_d.pdf", width = 18/2.54, height = 5/2.54, pointsize = 8)
 
 par(mar = c(0,4,8,4), oma = c(0,2,0,0), mgp = c(2.5,0.5,0), cex.main = 1)
-layout(matrix(c(1,1,1), nrow = 1, byrow = TRUE))
+layout(matrix(c(1,1,1), nrow = 1))
 
 plot.new()
 plot.window(xlim = c(0, nrow(res)+1), ylim = c(-1, 5), xaxs = "i")

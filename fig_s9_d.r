@@ -39,7 +39,7 @@ fdigit <- function(x) {
 pdf("fig_s9_d.pdf", width = 18/2.54, height = 5/2.54, pointsize = 8)
 
 par(mar = c(0,4,8,4), oma = c(0,2,0,0), mgp = c(2.5,0.5,0), cex.main = 1)
-layout(matrix(c(1,1,1), nrow = 1, byrow = TRUE))
+layout(matrix(c(1,1,1), nrow = 1))
 
 plot.new()
 plot.window(xlim = c(0, nrow(res)+1), ylim = c(-1, 4), xaxs = "i")
@@ -63,6 +63,6 @@ text(xs-0.75, 4.35, rownames(res), pos = 4, srt = 45, xpd = NA)
 
 text(c(3.5, 9.5, 15), 1.25, c("Chronological clocks", "Mitotic clocks", "Biological clocks"))
 
-title("h", adj = 0, cex.main = 1.5, line = 7)
+title("d", adj = 0, cex.main = 1.5, line = 7)
 
 invisible(dev.off())
