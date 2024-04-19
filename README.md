@@ -1,6 +1,6 @@
 # Epigenetic age oscillates during the day
 
-Supplementary data and R scripts for reproducing results of ... publication.
+Supplementary data and R scripts for reproducing results of [Epigenetic age oscillates during the day](https://onlinelibrary.wiley.com/doi/full/10.1111/acel.14170) publication.
 
 Data tables, such as epigenetic age predictions and cellcount estimates for samples used in the data analysis, are located within the `input/` directory.
 
